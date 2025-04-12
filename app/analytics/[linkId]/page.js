@@ -29,7 +29,7 @@ export default function LinkAnalyticsPage() {
   useEffect(() => {
     const fetchAnalytics = async () => {
       try {
-        const res = await fetch(`http://localhost:5000/api/analytics/${linkId}`, {
+        const res = await fetch(`linkshoty-production.up.railway.app/api/analytics/${linkId}`, {
           headers: {
             Authorization: `Bearer ${localStorage.getItem('token')}`,
           },

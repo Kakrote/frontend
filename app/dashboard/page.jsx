@@ -80,7 +80,7 @@ export default function DashboardPage() {
                                     <td className="p-4 max-w-xs truncate">{link.longUrl}</td>
                                     <td className="p-4">
                                         <a
-                                            href={`http://localhost:5000/${link.shortCode}`}
+                                            href={`linkshoty-production.up.railway.app/${link.shortCode}`}
                                             target="_blank"
                                             className=" text-blue-400 px-4 py-2 rounded-xl  transition"
                                         >
