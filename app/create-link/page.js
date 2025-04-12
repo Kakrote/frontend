@@ -43,7 +43,7 @@ export default function CreateLinkPage() {
       >
         <h2 className="text-3xl font-semibold mb-6 text-center text-gray-800">Create Short Link</h2>
 
-        <div className="mb-6">
+        <div className="mb-6 text-black">
           <label className="block text-sm font-medium text-gray-700">Original URL</label>
           <input
             type="url"
