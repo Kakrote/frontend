@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/Button"
 import { ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -16,11 +17,11 @@ export default function Home() {
           Create short, beautiful URLs that are fully trackable. Gain insights with real-time click analytics, device breakdowns and more.
         </p>
 
-        <a href="/login">
+        <Link href="/login">
           <Button className="text-lg px-6 py-3 rounded-xl flex items-center gap-2">
             Get Started <ArrowRight className="w-5 h-5" />
           </Button>
-        </a>
+        </Link>
 
         <div className="mt-16">
           <img
