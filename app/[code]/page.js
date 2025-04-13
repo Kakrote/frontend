@@ -10,7 +10,7 @@ export default function RedirectPage({ params }) {
     const handleRedirect = async () => {
       try {
        
-        window.location.href = `http://localhost:5000/${params.code}`
+        window.location.href = `https://linkshoty-production.up.railway.app/${params.code}`
       } catch (err) {
         console.error(err)
         router.push('/404')
