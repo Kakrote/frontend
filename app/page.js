@@ -25,7 +25,7 @@ export default function Home() {
 
         <div className="mt-16">
           <img
-            src="https://illustrations.popsy.co/gray/dashboard.svg"
+            src="https://storyset.com/illustration/social-dashboard/rafiki"
             alt="Analytics Dashboard Illustration"
             className="mx-auto w-80 drop-shadow-xl"
           />
